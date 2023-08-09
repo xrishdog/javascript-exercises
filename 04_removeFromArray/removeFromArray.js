@@ -8,7 +8,7 @@ const removeFromArray = function() {
 	for (let i = 1; i < args.length ; i ++){
 
 		newArr = newArr.filter(item => item !== args[i]);
-		console.log(newArr);
+		//console.log(newArr);
 	}
 	return newArr
 
